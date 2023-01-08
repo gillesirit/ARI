@@ -36,7 +36,7 @@ def ari(dim,attribute,list_of_attributes,sample_set,set_of_pairs):
         return 2
     return m_att/ag_att
         
-def select_features_ars(dim,list_of_attributes,sample_set,set_of_pairs):
+def select_features_ari(dim,list_of_attributes,sample_set,set_of_pairs):
     scores=[]
     for attribute in list_of_attributes:
         ratio=ari(dim,attribute,list_of_attributes,sample_set,set_of_pairs)
